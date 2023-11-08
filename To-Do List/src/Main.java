@@ -134,13 +134,12 @@ public class Main {
         return true;
     }
 
-    private static void printList(List<Task> list) {
+    private static void printList(List<Task> tasks) {
 
         System.out.println("Below is list of all your tasks:");
 
-        for (Task task : list) {
-
-            System.out.println(task);
+        for (int i = 0; i < tasks.size() ; i++) {
+            System.out.printf("%d %s\n", i + 1, tasks.get(i));
         }
 
         System.out.println();
