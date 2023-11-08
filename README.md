@@ -28,38 +28,34 @@ This is a console-based To-Do List application implemented in Java. The applicat
   - Tasks are loaded from the `tasks.txt` file when you start the application.
   - If the file doesn't exist or there is an error loading tasks, the application will start with an empty to-do list.
 
-## Example
+## Screenshots
 
-To-Do List Application
+![To-Do List Overview](https://github.com/hiuseinlesho/To-Do-List/assets/133807047/b8918f12-2b3d-414f-b92d-848c6111f67b)
 
-Add Task
-Mark Task as Completed
-Delete Task
-Exit
-Enter your choice: 1
-Enter task description: Complete coding assignment
+Firstly tasks.txt is empty
 
-Task added: Complete coding assignment
+![empty tasks txt](https://github.com/hiuseinlesho/To-Do-List/assets/133807047/8088d787-83c4-43e8-bd78-f1818549b383)
 
-Add Task
-Mark Task as Completed
-Delete Task
-Exit
-Enter your choice: 4
-Tasks saved to tasks.txt
-Goodbye!
+Add task
 
-(Next time you run the application...)
+![To-Do List Add task](https://github.com/hiuseinlesho/To-Do-List/assets/133807047/b5e9ab4e-5386-4ba3-be95-7cffeaeeb87c)
 
-To-Do List Application
-Tasks loaded from tasks.txt
+Now we can see that task is uploaded to tasks.text file
 
-Complete coding assignment
+![tasks txt added task](https://github.com/hiuseinlesho/To-Do-List/assets/133807047/1396fa42-dc6d-477e-8930-1f995b214a79)
 
-Add Task
+Mark task as completed
 
-Mark Task as Completed
+![To-Do List Mark task](https://github.com/hiuseinlesho/To-Do-List/assets/133807047/11da6343-7eb1-428c-8902-5271a5d8abeb)
 
-Delete Task
+![tasks txt complete task](https://github.com/hiuseinlesho/To-Do-List/assets/133807047/d48c743e-7afa-4574-91c1-b5aa36245c24)
 
-Exit
+And delete task
+
+![To-Do List Delete task](https://github.com/hiuseinlesho/To-Do-List/assets/133807047/9305b9b5-c526-412f-b645-109d2f0f3489)
+
+![tasks txt delete task](https://github.com/hiuseinlesho/To-Do-List/assets/133807047/a6c487ca-fa23-4fd9-ab4c-426a4974f7b8)
+
+
+
+
