@@ -149,9 +149,16 @@ public class Main {
 
     private static List<Task> loadTasksFromFile() {
         List<Task> tasks = new ArrayList<>();
+
+
         try (BufferedReader reader = new BufferedReader(new FileReader(FILENAME))) {
-            String line;
-            while ((line = reader.readLine()) != null) {
+            String line = reader.readLine();
+
+            if (line == null) {
+                return tasks;
+            }
+
+            while (line != null) {
                 String[] tokens = line.split(" - ");
 
                 String description = tokens[0];
@@ -159,6 +166,8 @@ public class Main {
 
                 Task task = new Task(description, status);
                 tasks.add(task);
+
+                line = reader.readLine();
             }
             System.out.println("Tasks loaded from " + FILENAME);
         } catch (IOException e) {
