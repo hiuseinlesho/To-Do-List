@@ -30,7 +30,7 @@ This is a console-based To-Do List application implemented in Java. The applicat
 
 ## Screenshots
 
-![To-Do List Overview](https://github.com/hiuseinlesho/To-Do-List/assets/133807047/b8918f12-2b3d-414f-b92d-848c6111f67b)
+![To-Do List Overview](https://github.com/hiuseinlesho/To-Do-List/assets/133807047/32739d1d-4c5f-416c-b782-7228dba91524)
 
 Firstly tasks.txt is empty
 
