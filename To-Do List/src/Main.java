@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static final String TITLE = "To-Do List Application\n";
+    public static final String TITLE = "To-Do List Application";
     public static final String MENU = "1. Add Task\n"
             + "2. Mark Task as Completed\n"
             + "3. Delete Task\n"
@@ -139,7 +139,7 @@ public class Main {
         System.out.println("Below is list of all your tasks:");
 
         for (int i = 0; i < tasks.size() ; i++) {
-            System.out.printf("%d %s\n", i + 1, tasks.get(i));
+            System.out.printf("%d. %s\n", i + 1, tasks.get(i));
         }
 
         System.out.println();
@@ -153,7 +153,7 @@ public class Main {
         try (BufferedReader reader = new BufferedReader(new FileReader(FILENAME))) {
             String line = reader.readLine();
 
-            if (line == null) {
+            if (line == null || line.isEmpty()) {
                 return tasks;
             }
 
